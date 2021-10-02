@@ -164,6 +164,7 @@ http://localhost:5000/getDesktopCompany
 <p align="left">
   <strong> Method POST </strong>
 </p>
+
 ## Search all contributors from a company by phone number's company
 
 ````
