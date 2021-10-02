@@ -4,11 +4,11 @@ module.exports = {
     development:{
         client:'mysql2',
         connection: {
-            host : process.env.DATABASE_URL || '127.0.0.1',
-            port : process.env.DATABASE_PORT || 3306,
-            user : process.env.DATABASE_USER  || 'root',
-            password : process.env.DATABASE_PSW || 'root',
-            database : process.env.DATABASE_NAME || 'database_test'
+            host : process.env.DATABASE_URL ,
+            port : process.env.DATABASE_PORT ,
+            user : process.env.DATABASE_USER  ,
+            password : process.env.DATABASE_PSW ,
+            database : process.env.DATABASE_NAME 
 
         },
         migrations:{
