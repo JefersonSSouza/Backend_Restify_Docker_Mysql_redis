@@ -65,7 +65,7 @@ async function desktopsCompany(req, res, next) {
 }
 
 routerInstance.get('/getAllDesktops', getAllDesktops);
-routerInstance.post('/desktCompany', desktopsCompany);
+routerInstance.post('/getDesktopCompany', desktopsCompany);
 
 module.exports = { createRouter };
 

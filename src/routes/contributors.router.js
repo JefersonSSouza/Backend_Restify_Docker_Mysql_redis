@@ -69,6 +69,6 @@ return next();
 
 
 routerInstance.get('/getAllContributors', getAllContributors);
-routerInstance.post('/contributorsCompany', contributorsCompany);
+routerInstance.post('/getContributorsCompany', contributorsCompany);
 
 module.exports = { createRouter };
