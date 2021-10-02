@@ -1,4 +1,5 @@
 node_modules
+package-lock.json
 src/knex/companies.json
 src/knex/contributors.json
 src/knex/desktop.json
