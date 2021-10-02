@@ -1,0 +1,26 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js ",
+    "migrate": "knex migrate:latest",
+    "docker-compose-up": "docker-compose up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "knex": "^0.95.11",
+    "mysql2": "^2.3.0",
+    "promise-redis": "^0.0.5",
+    "restify": "^8.6.0",
+    "restify-router": "^0.6.2",
+    "shelljs": "^0.8.4",
+    "util": "^0.12.4"
+  }
+}

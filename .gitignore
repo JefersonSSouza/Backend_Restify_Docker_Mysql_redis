@@ -1,0 +1,5 @@
+node_modules
+src/knex/companies.json
+src/knex/contributors.json
+src/knex/desktop.json
+src/knex/dataset.json
