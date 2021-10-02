@@ -52,7 +52,6 @@ async function searchCompany(req, res, next) {
   strRes = strRes.replace('}', '')
   strRes = strRes.split(':')
 
-  console.log(strRes)
   const redis_result = await redis_client.get('company.term.' + strRes)
 
   if (!redis_result) {
